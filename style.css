@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(bg-intro-mobile.png);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding-right: 100px;
+    background-color: rgb(235, 43, 75);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 80vh;
+    /* padding-bottom: 100px; */
+    background-image: url(bg-intro-mobile.png);
+
+}
+h1{
+    
+    font-size: 50px;
+}
+
+button {
+    background-color: rgb(57, 235, 57);
+    color: white;
+    width: 112%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    opacity: 0.9;
+    box-shadow: 3px 3px;
+    border-color: antiquewhite;
+    position: relative;
+    top: -90px;
+}
+
+button:hover {
+    opacity: 1;
+}
+.right-side-p{
+    font-size: 0%;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+/* styling the individual  divs */
+.left-side {
+    padding: 7% 15%;
+    color: white;
+
+
+}
+
+.form-header {
+    position:relative; top:-70px;
+    left: -50px;
+    background-color: rgb(116, 3, 190);
+    color: #f1f1f1;
+    width: 134%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: grid;
+    text-align: center;
+    box-shadow: 3px 3px;
+    border-color: none;
+}
+
+.right-side {
+    position: relative;
+    bottom: -50px;
+    padding-right: 80px;
+    padding-left: 50px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    border-color: antiquewhite;
+    height: 65%;
+
+}
+
+.right-side p {
+    font-size: xx-small;
+}
+
+input[type=text],
+input[type=password] {
+    position: relative;
+    top: -85px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    /* border: 1px; */
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
